@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import { Home } from "./pages/Home/index.tsx";
-import { PoderSimple } from "./componets/PoderSimple.tsx";
+import { Home } from "./pages/Home/Home.tsx";
+import { Generador } from "./pages/Generador/Generador.tsx";
 
 const router = createBrowserRouter([
   {
@@ -11,8 +11,8 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/poder-simple",
-    element: <PoderSimple />,
+    path: "/Generador",
+    element: <Generador />,
   },
 ]);
 

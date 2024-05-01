@@ -8,7 +8,7 @@ export const FormSelector = () => {
     event.preventDefault();
   };
   const handleClick = () => {
-    navigate("/poder-simple");
+    navigate("/Generador");
   };
 
   const { pokemon, loading, error } = usePokemon(
